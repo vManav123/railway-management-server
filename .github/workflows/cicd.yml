@@ -95,6 +95,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           #Set artifact name
-          name: user-management-service
+          name: railway-management-server
           #From this path
-          path: target/user-management-service.jar
+          path: target/railway-management-server.jar
